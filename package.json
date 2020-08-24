@@ -1,0 +1,43 @@
+{
+  "name": "@yoannarres/puppeteer-recorder",
+  "version": "0.0.8",
+  "description": "Record animations using puppeteer. Based on electron-recorder. Custom updates for h264 output",
+  "main": "index.js",
+  "peerDependencies": {
+    "puppeteer": ">= 0.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint main.js --fix",
+    "start": "node index.js"
+  },
+  "repository": "yarres/puppeteer-recorder",
+  "keywords": [
+    "puppeteer",
+    "ffmpeg",
+    "animation",
+    "recorder"
+  ],
+  "author": "Max Schmeling",
+  "contributors": [
+    "Yoann Arres Lapoque"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yarres/puppeteer-recorder/issues"
+  },
+  "homepage": "https://github.com/yarres/puppeteer-recorder#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "prettier": "1.17.0"
+  },
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "esm": "^3.2.22",
+    "puppeteer": "^1.14.0"
+  }
+}
