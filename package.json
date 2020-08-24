@@ -1,5 +1,5 @@
 {
-  "name": "@yoannarres/puppeteer-recorder",
+  "name": "@ariel-frischer/puppeteer-recorder-v4",
   "version": "0.0.8",
   "description": "Record animations using puppeteer. Based on electron-recorder. Custom updates for h264 output",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "lint": "./node_modules/.bin/eslint main.js --fix",
     "start": "node index.js"
   },
-  "repository": "yarres/puppeteer-recorder",
+  "repository": "ariel-frischer/puppeteer-recorder-v4",
   "keywords": [
     "puppeteer",
     "ffmpeg",
